@@ -1,0 +1,15 @@
+Task0: No matter how big calls.csv or texts.csv is, the same number of calls must be made.
+O(1)
+
+Task1: With each addition of a call or text in calls.csv or texts.csv each for loop must do one more iteration.
+O(n)
+
+Task2: Worst case scenario is that each call has two brand new numbers. If this is the case, with each addition of a call in calls.csv, the first for loop must do one more iteration while the second for loop must do two more iterations (one for each number)
+O(n)
+
+Task3: With each addition of a call in calls.csv, the for loop must do one more iteration. The "sorted" function's complexity dominates the for loops complexity.
+Part A: O(n log(n))
+Part B: O(n)
+
+Task4: With each addition of a call or text in calls.csv or texts.csv the first loop must do two more iterations while the second loop must do one more iteration. The "sorted" function's complexity dominates the for loops complexity.
+O(n log(n))
