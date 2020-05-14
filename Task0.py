@@ -1,6 +1,8 @@
 """Read file into texts and calls.
 
 Print the first record of texts and the last record of calls
+
+Usage: Task0.py
 """
 
 import csv

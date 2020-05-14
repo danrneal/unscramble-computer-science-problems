@@ -1,6 +1,8 @@
 """Read file into texts and calls.
 
 Print the phone number that spent to longest time on the phone
+
+Usage: Task2.py
 """
 
 import csv

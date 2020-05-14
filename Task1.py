@@ -1,6 +1,8 @@
 """Read file into texts and calls.
 
 Print the number of unique telephone numbers in the records
+
+Usage: Task1.py
 """
 
 import csv

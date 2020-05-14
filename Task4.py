@@ -1,6 +1,8 @@
 """Read file into texts and calls.
 
 Print list of phone numbers that could be potential telemarkers
+
+Usage: Task4.py
 """
 
 import csv

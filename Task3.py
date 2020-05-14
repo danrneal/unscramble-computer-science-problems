@@ -3,6 +3,8 @@
 Print a list of area codes and mobile prefixes called by people in Bangladore
 Print the percentage of calls from fixed lines in Bangalore made to fixed lines
     also in Bangladore
+
+Usage: Task3.py
 """
 
 import csv
