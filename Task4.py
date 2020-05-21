@@ -33,5 +33,4 @@ with open("texts.csv", "r") as f:
             potential_telemarketers.remove(text[1])
 
 print("These numbers could be telemarketers:")
-for potential_telemarketer in sorted(potential_telemarketers):
-    print(potential_telemarketer)
+print(*sorted(potential_telemarketers), sep="\n")

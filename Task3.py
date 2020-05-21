@@ -36,8 +36,7 @@ with open("calls.csv", "r") as f:
                 prefixes.add(call[1][:3])
 
 print("The numbers called by people in Bangalore have codes:")
-for prefix in sorted(prefixes):
-    print(prefix)
+print(*sorted(prefixes), sep="\n")
 
 percentage = round(calls_to_bangladore / calls_from_bangladore * 100, 2)
 
