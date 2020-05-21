@@ -16,15 +16,8 @@ with open("calls.csv", "r") as f:
     calls = list(reader)
 
     for call in calls:
-        if call[0] in durations:
-            durations[call[0]] += int(call[3])
-        else:
-            durations[call[0]] = int(call[3])
-
-        if call[1] in durations:
-            durations[call[1]] += int(call[3])
-        else:
-            durations[call[1]] = int(call[3])
+        durations[call[0]] = durations.get(call[0], 0) + int(call[3])
+        durations[call[1]] = durations.get(call[1], 0) + int(call[3])
 
 
 for number in durations:
