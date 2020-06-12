@@ -7,7 +7,7 @@ Five tasks based on a fabricated set of calls and texts exchanged during Septemb
 A description of each task can be found in the docstring of each file. Each task can be run by simply calling the file. For instance, you can run Task 0 as follows:
 
 ```bash
-Task0.py
+Usage: Task0.py
 ```
 
 Accompanying run time analysis in big O notation is documented in `analysis.txt`.
